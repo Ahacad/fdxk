@@ -1,0 +1,31 @@
+tbody tr th{
+  background-color: red !important;
+}
+
+/*remove the original style*/
+
+.gridtable td{
+  overflow: visible !important;
+}
+
+/*set column hover */
+
+td, th {
+  position: relative !important;
+}
+
+tbody tr td:hover::before{
+  content: "" !important;
+  background: rgba(255, 25, 255, 0.1) !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: -9999px !important;
+  bottom: -9999px !important;
+  z-index: -2 !important;
+  position: absolute !important;
+}
+
+table {
+  overflow: hidden !important;
+}
+
