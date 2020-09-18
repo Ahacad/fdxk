@@ -46,7 +46,7 @@ table {
   font-size: 14px;
 }
 
-#courseTable{
+#courseTable table{
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
