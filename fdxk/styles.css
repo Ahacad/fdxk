@@ -50,20 +50,29 @@ table {
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.gridtable th{
-  background-color: #F0F9FF !important;
-}
+/*.gridtable th{*/
+  /*background-color: */
+/*}*/
 
 .gridtable td, th{
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.gridtable tbody tr:nth-child(even){
-  background-color:#F5F5F5;
+.gridtable tbody tr:nth-child(even) th,
+.gridtable tbody tr:nth-child(even)
+{
+  background-color: rgba(226, 244, 255, 0.5) !important;
 }
-.gridtable tbody tr:nth-child(odd){
-  background-color:#fff;
+.gridtable tbody tr:nth-child(odd) th,
+.gridtable tbody tr:nth-child(odd)
+{
+  background-color:#fff !important;
 }
+
+element.style{
+  background-color: none;
+}
+
 
 /*****************************
  *
@@ -88,3 +97,4 @@ table {
   float: right;
   font-weight: bold;
 }
+
