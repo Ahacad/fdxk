@@ -69,4 +69,15 @@ table {
  *
  *
  *
- *
+\* electDescription    */
+
+hide elect description panel, and display total choosed points below by javascript
+#electDescription{
+  display: none !important;
+}
+
+#courseTable{
+  margin-top: 20px !important;
+}
+
+
