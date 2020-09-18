@@ -71,7 +71,7 @@ table {
  *
 \* electDescription    */
 
-hide elect description panel, and display total choosed points below by javascript
+/*hide elect description panel, and display total choosed points below by javascript*/
 #electDescription{
   display: none !important;
 }
@@ -81,3 +81,10 @@ hide elect description panel, and display total choosed points below by javascri
 }
 
 
+
+/*credits*/
+
+.credits{
+  float: right;
+  font-weight: bold;
+}
