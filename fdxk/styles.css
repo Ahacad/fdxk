@@ -95,6 +95,7 @@ element.style{
 
 .credits{
   float: right;
+  color: red;
   font-weight: bold;
 }
 
