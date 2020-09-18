@@ -5,7 +5,7 @@
 \* Table hover            */
 
 /*remove the original style*/
-.gridtable td{
+#courseTable td{
   overflow: visible !important;
 }
 
@@ -46,25 +46,25 @@ table {
   font-size: 14px;
 }
 
-.gridtable{
+#courseTable{
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
-/*.gridtable th{*/
+/*#courseTable th{*/
   /*background-color: */
 /*}*/
 
-.gridtable td, th{
+#courseTable td, th{
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.gridtable tbody tr:nth-child(even) th,
-.gridtable tbody tr:nth-child(even)
+#courseTable tbody tr:nth-child(even) th,
+#courseTable tbody tr:nth-child(even)
 {
   background-color: rgba(226, 244, 255, 0.5) !important;
 }
-.gridtable tbody tr:nth-child(odd) th,
-.gridtable tbody tr:nth-child(odd)
+#courseTable tbody tr:nth-child(odd) th,
+#courseTable tbody tr:nth-child(odd)
 {
   background-color:#fff !important;
 }
@@ -72,6 +72,11 @@ table {
 element.style{
   background-color: none;
 }
+
+#courseTable tbody tr th{
+  border-right-color: rgba(226, 244, 255, 0.9) !important;
+}
+
 
 
 /*****************************
@@ -95,7 +100,7 @@ element.style{
 
 .credits{
   float: right;
-  color: red;
   font-weight: bold;
+  color: red;
 }
 
