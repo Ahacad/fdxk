@@ -48,6 +48,7 @@ table {
 
 #courseTable table{
   border-color: rgba(0, 0, 0, 0) !important;
+  border-radius: 20px;
 }
 
 /*#courseTable th{*/
@@ -78,6 +79,9 @@ element.style{
 }
 
 
+.gridhead {
+  background-color: #96bcff !important;
+}
 
 /*****************************
  *
@@ -94,13 +98,12 @@ element.style{
   margin-top: 20px !important;
 }
 
-
-
 /*credits*/
 
 .credits{
   float: right;
   font-weight: bold;
-  color: red;
+  color: #be3232;
 }
+
 
