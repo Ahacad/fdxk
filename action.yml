@@ -1,17 +1,27 @@
-steps:
-  # pack zip and read manifest, can be reused in the following steps
-  - id: packExtensionDir
-    uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
-    with:
-      extensionDir: 'fdxk'
-      zipFilePath: 'build/extension.zip'
-  
-  - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
-    with:
-      # zip file made at the packExtensionDir step
-      zipFilePath: 'build/extension.zip',
-      crxFilePath: 'build/extension.crx'
-      privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }},
-      # The following is optional if you need update.xml file
-      #updateXmlPath: 'build/update.xml',      
-      #updateXmlCodebaseUrl: 'http://...'
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+
+    steps:
+      # pack zip and read manifest, can be reused in the following steps
+      - id: packExtensionDir
+        uses: cardinalby/webext-buildtools-pack-extension-dir-action@v1
+        with:
+          extensionDir: 'fdxk'
+          zipFilePath: 'build/extension.zip'
+      
+      - uses: cardinalby/webext-buildtools-chrome-crx-action@v2
+        with:
+          # zip file made at the packExtensionDir step
+          zipFilePath: 'build/extension.zip',
+          crxFilePath: 'build/extension.crx'
+          privateKey: ${{ secrets.CHROME_CRX_PRIVATE_KEY }},
+          # The following is optional if you need update.xml file
+          #updateXmlPath: 'build/update.xml',      
+          #updateXmlCodebaseUrl: 'http://...'
