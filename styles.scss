@@ -89,3 +89,21 @@
     }
 
 }
+
+
+//hover over calendar information
+.div-to-display {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid red;
+    background-color: #eee;
+    z-index: 10;
+}
+td {
+    position: relative !important;
+}
+td:hover > .div-to-display {
+    display: block
+}

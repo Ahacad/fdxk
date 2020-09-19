@@ -12,4 +12,12 @@ credits.classList.add("credits");
 list = document.getElementsByClassName("electTabsBar");
 list[0].appendChild(credits)
 
+var calendarTds = document.querySelectorAll("#courseTable table tbody tr td");
+
+for (let i = 0; i < calendarTds.length; i++){
+    let node = document.createElement("div");
+    node.classList.add("div-to-display")
+    node.innerHTML = "yay";
+    calendarTds[i].append(node);
+}
 
