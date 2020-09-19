@@ -5,7 +5,6 @@
 
 
 //change credits div display position 
-
 var totalCredits = document.getElementById("selectedCredits");
 var credits = document.createElement("div");
 credits.innerHTML = totalCredits.innerHTML;

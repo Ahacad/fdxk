@@ -12,5 +12,8 @@ This repository contains a series of tools to help you choose class easily.
 - [ ] search for courses automatically
 - [ ] elect courses automatically
 - [ ] more customizable ui themes
-- [ ] floating information(teacher, classroom)
  
+### Tasks
+
+- [ ] floating information(teacher, classroom), get javascript info
+- [ ] css rebuild for the down panel (3 together)
