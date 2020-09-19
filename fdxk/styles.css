@@ -69,6 +69,9 @@
 .electTabPanel .electTabsBar .electTab:hover {
   transform: translateY(-5px);
 }
+.electTabPanel .electTabContent {
+  border: none;
+}
 .electTabPanel .electTabContent .grid table {
   border-width: 0;
 }
