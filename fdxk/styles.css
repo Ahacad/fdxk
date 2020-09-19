@@ -74,7 +74,7 @@
 }
 .electTabPanel .electTabContent .grid table tbody tr td {
   background: none;
-  border-color: white;
+  border-width: 0;
 }
 .electTabPanel .electTabContent .grid table tbody tr td::after {
   content: "";

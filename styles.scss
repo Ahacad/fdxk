@@ -94,7 +94,7 @@
                 tr{
                     td{
                         background: none;
-                        border-color: white;
+                        border-width: 0;
                         &::after{
                             content: "";
                             background: rgba(204, 204, 204, 1);
@@ -135,5 +135,4 @@ td {
 td:hover > .div-to-display {
     display: block
 }
-
 
