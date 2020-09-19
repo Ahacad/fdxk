@@ -87,6 +87,9 @@
 .electTabPanel .electTabContent .grid table thead tr th input[type=submit]:hover {
   box-shadow: 5px 5px 10px #ddd;
 }
+.electTabPanel .electTabContent .grid table thead tr:nth-child(2) th:hover {
+  background-color: rgba(225, 225, 225, 0.5);
+}
 .electTabPanel .electTabContent .grid table tbody tr td {
   background: none;
   border-width: 0;

@@ -89,16 +89,21 @@
         .grid table{
             border-width: 0;
             thead{
-                tr th{
-                    padding: 10px;
-                    background: rgba(255, 255, 255, 0.8);
-                    border: none;
-                    border-bottom: 2px grey solid;
-                    input{ 
-                        transition: all 0.3s ease;
-                        &[type="submit"]:hover{
-                            box-shadow: 5px 5px 10px #ddd;
+                tr {
+                    th{
+                        padding: 10px;
+                        background: rgba(255, 255, 255, 0.8);
+                        border: none;
+                        border-bottom: 2px grey solid;
+                        input{ 
+                            transition: all 0.3s ease;
+                            &[type="submit"]:hover{
+                                box-shadow: 5px 5px 10px #ddd;
+                            }
                         }
+                    }
+                    &:nth-child(2) th:hover{
+                        background-color: rgba(225, 225, 225, 0.5);
                     }
                 }
             }
