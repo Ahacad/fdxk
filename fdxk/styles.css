@@ -59,4 +59,15 @@
   color: #be3232;
 }
 
+.electTabPanel .electTabsBar .electTabSelected {
+  border-bottom-color: #006CB2 !important;
+}
+.electTabPanel .electTabsBar .electTab {
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+.electTabPanel .electTabsBar .electTab:hover {
+  transform: translateY(-5px);
+}
+
 /*# sourceMappingURL=styles.css.map */
