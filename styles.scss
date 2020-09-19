@@ -88,7 +88,12 @@
         .grid table{
             border-width: 0;
             thead{
-
+                tr th{
+                    padding: 8px;
+                    background: rgba(255, 255, 255, 0.8);
+                    border: none;
+                    border-bottom: 2px grey solid;
+                }
             }
             tbody{
                 tr{

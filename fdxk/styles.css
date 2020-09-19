@@ -72,6 +72,12 @@
 .electTabPanel .electTabContent .grid table {
   border-width: 0;
 }
+.electTabPanel .electTabContent .grid table thead tr th {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 2px grey solid;
+}
 .electTabPanel .electTabContent .grid table tbody tr td {
   background: none;
   border-width: 0;
