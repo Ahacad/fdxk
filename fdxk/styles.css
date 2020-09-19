@@ -69,6 +69,27 @@
 .electTabPanel .electTabsBar .electTab:hover {
   transform: translateY(-5px);
 }
+.electTabPanel .electTabContent .grid table tbody tr td {
+  background: none;
+  border-color: white;
+}
+.electTabPanel .electTabContent .grid table tbody tr td::after {
+  content: "";
+  background: #cccccc;
+  left: 0;
+  right: 0;
+  top: 5px;
+  bottom: 5px;
+  z-index: -3;
+  position: absolute;
+}
+.electTabPanel .electTabContent .grid table tbody tr td:first-child {
+  border-radius: 25px 0 0 25px;
+}
+.electTabPanel .electTabContent .grid table tbody tr td:last-child {
+  border-radius: 0 25px 25px 0;
+}
+
 .div-to-display {
   display: none;
   position: absolute;

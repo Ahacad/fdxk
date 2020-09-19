@@ -85,7 +85,35 @@
         }
     }
     .electTabContent{
+        .grid table{
+            thead{
 
+            }
+            tbody{
+                tr{
+                    td{
+                        background: none;
+                        border-color: white;
+                        &::after{
+                            content: "";
+                            background: rgba(204, 204, 204, 1);
+                            left: 0;
+                            right: 0;
+                            top: 5px;
+                            bottom: 5px;
+                            z-index: -3;
+                            position: absolute;
+                        }
+                        &:first-child{
+                            border-radius: 25px 0 0 25px;
+                        }
+                        &:last-child{
+                            border-radius: 0 25px 25px 0;
+                        }
+                    }
+                }
+            }
+        }
     }
 
 }
@@ -106,3 +134,5 @@ td {
 td:hover > .div-to-display {
     display: block
 }
+
+
