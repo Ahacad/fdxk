@@ -3,9 +3,14 @@
       //images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
 //}
 
+
+//change credits div display position 
+
 var totalCredits = document.getElementById("selectedCredits");
 var credits = document.createElement("div");
 credits.innerHTML = totalCredits.innerHTML;
 credits.classList.add("credits");
 list = document.getElementsByClassName("electTabsBar");
 list[0].appendChild(credits)
+
+
