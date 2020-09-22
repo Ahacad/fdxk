@@ -6,7 +6,7 @@
 
 This repository contains a series of tools to help you choose class easily.
 
-**This project is temporaily deprecated, visit [fdxk](fdxk.info) for the better project.** 
+**This project is temporaily deprecated, visit fdxk.info for the better project.** 
 
 ## Todos
 
